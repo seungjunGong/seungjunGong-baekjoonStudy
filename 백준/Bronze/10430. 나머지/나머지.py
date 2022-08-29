@@ -1,0 +1,8 @@
+abc = input().split(' ')
+a = int(abc[0])
+b = int(abc[1])
+c = int(abc[2])
+print((a+b)%c)
+print(((a%c)+(b%c))%c)
+print((a*b)%c)
+print(((a%c)*(b%c))%c)   
