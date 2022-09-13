@@ -1,21 +1,20 @@
-n = input("")
-if int(n) < 10:
-    n = '0' + n
-answer = list()
-split = list()
-nword = list()
-count = 0
-split.append([*n])
-for i in range(100000000):
-    ans = int(split[i][0]) + int(split[i][1])
-    if ans < 10:
-        answer.append([*("0" + str(ans))])
+N = list(input())
+if len(N) == 1:
+    if N[0] == '0':
+        N.append('0')
     else:
-        answer.append([*str(ans)])
-    nword.append(split[i][1] + answer[i][1])
-    count += 1
-    if nword[i] == n:
-        break
-    split.append([*nword[i]])
+        N = ['0', N[0]]
 
+originNum = int(N[0] + N[1])
+count = 0
+
+while 1:
+    sum = str(int(N[0]) + int(N[1]))
+    if int(sum) < 10:
+        sum = '0' + sum 
+    N[0] = N[1]
+    N[1] = sum[1]
+    count += 1
+    if originNum == int(N[0] + N[1]):
+        break
 print(count)
