@@ -72,5 +72,6 @@ int main(void)
 	}
 
 	printf("%lld", stack_sum(&account_book));
+	free(account_book.list);
 	return 0;
 }
