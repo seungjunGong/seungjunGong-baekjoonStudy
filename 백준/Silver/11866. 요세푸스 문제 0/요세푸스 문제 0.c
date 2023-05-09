@@ -1,31 +1,54 @@
+// 요세푸스 큐 이용
 #include <stdio.h>
-#include <string.h>
+#define MAX_SIZE 1000
+
+typedef int element;
+typedef struct
+{
+    element data[MAX_SIZE];
+    int front, rear;
+    int cnt;
+} QueueType;
+
+void init_queue(QueueType *q)
+{
+    q->front = q->rear = 0;
+    q->cnt = 0;
+}
+
+void enqueue(QueueType *q, element item)
+{
+    q->rear = (q->rear + 1) % MAX_SIZE;
+    q->data[q->rear] = item;
+}
+
+element dequeue(QueueType *q)
+{
+    q->front = (q->front + 1) % MAX_SIZE;
+    return q->data[q->front];
+}
 
 int main(void)
 {
     int n, k;
     scanf("%d %d", &n, &k);
 
-    int arr[1001] = {0};
-    for (int i = 1; i <= n; i++)
-        arr[i] = 1;
+    QueueType queue;
+    init_queue(&queue);
 
-    int cnt = 0;   // k번까지 카운트
-    int total = 0; // 현재 총 순열 개수
-    int i = 0;     // 원형 이동 index
+    for (int i = 1; i <= n; i++)
+        enqueue(&queue, i);
+
     printf("<");
-    while (total < n)
+    while (queue.cnt < n)
     {
-        if (arr[i] == 1)
-            cnt++;
-        if (cnt == k)
+        for (int i = 0; i < k - 1; i++)
         {
-            cnt = 0;
-            total += 1;
-            arr[i] = 0;
-            printf(total == n ? "%d>" : "%d, ", i);
+            element add_item = dequeue(&queue);
+            enqueue(&queue, add_item);
         }
-        i = (i + 1) % (n + 1);
+        printf(++queue.cnt == n ? "%d>" : "%d, ", dequeue(&queue));
     }
+
     return 0;
 }
