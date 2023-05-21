@@ -7,10 +7,13 @@ int main(void)
     scanf("%d", &L);
     char word;
     int result = 0;
+    int r = 1;
+    int M = 1234567891;
     for (int i = 0; i < L; i++)
     {
         scanf(" %c", &word);
-        result += ((int)pow(31.0, i)) * (word - 96);
+        result += (r * (word - 96)) % M;
+        r *= 31 % M;
     }
 
     printf("%d", result);
