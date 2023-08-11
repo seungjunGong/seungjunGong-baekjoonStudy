@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define MAX_SIZE 10000
-#define MAX(a, b) a > b ? a : b
+#define MAX(a, b, c) a > b ? a > c ? a : c : b > c ? b : c
 
-int n, arr[MAX_SIZE], dp[MAX_SIZE], max;
+int n, arr[MAX_SIZE], dp[MAX_SIZE];
 
 int main(void)
 {
@@ -11,15 +11,10 @@ int main(void)
     for (int i = 0; i < n; i++)
         scanf("%d", &arr[i]);
 
-    max = 0;
     for (int i = 0; i < n; i++)
-    {
-        dp[i] = MAX(arr[i] + dp[i - 2], arr[i] + arr[i - 1] + dp[i - 3]);
-        dp[i] = MAX(dp[i], dp[i - 1]);
-        max = MAX(max, dp[i]);
-    }
+        dp[i] = MAX(arr[i] + dp[i - 2], arr[i] + arr[i - 1] + dp[i - 3], dp[i-1]);
 
-    printf("%d", max);
+    printf("%d", dp[n-1]);
 
     return 0;
 }
