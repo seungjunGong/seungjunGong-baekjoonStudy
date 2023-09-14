@@ -31,15 +31,7 @@ int get_min_number_tree()
         }
     }
 
-    int ans = 0, cnt = 0;
-    for (int i = arr[0]; i <= arr[n - 1]; i += dist)
-    {
-        if (arr[cnt] != i)
-            ans++;
-        else
-            cnt++;
-    }
-    return ans;
+    return ((arr[n - 1] - arr[0]) / dist + 1 - n);
 }
 
 int main(void)
