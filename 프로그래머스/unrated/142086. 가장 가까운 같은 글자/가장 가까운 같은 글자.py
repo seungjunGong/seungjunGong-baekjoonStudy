@@ -6,9 +6,8 @@ def solution(s):
     for i, alp in enumerate(s):
         if s_index.get(alp) == None:
             answer.append(-1)
-            s_index[alp] = i
         else:
             answer.append(i - s_index[alp])
-            s_index[alp] = i
+        s_index[alp] = i
                     
     return answer
