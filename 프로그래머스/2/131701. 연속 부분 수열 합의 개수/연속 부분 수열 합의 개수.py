@@ -2,7 +2,7 @@ def solution(elements):
     answer = 0
     
     length = len(elements)
-    numbers = {}
+    numbers = set()
     
     for select in range(1, length+1):
         for i in range(length):
@@ -12,6 +12,7 @@ def solution(elements):
             else:
                 num = sum(elements[i:i+select])
             
-            numbers[num] = numbers.get(num, 0) + 1
+            numbers.add(num)
+            
     answer = len(numbers)                 
     return answer
