@@ -3,7 +3,7 @@ class Solution {
         String answer = "";
         
         for(int i = 0; i < str1.length(); i++)
-            answer += str1.charAt(i) + "" + str2.charAt(i);
+            answer += String.valueOf(str1.charAt(i)) + String.valueOf(str2.charAt(i));
         return answer;
     }
 }
