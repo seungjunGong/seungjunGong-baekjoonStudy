@@ -1,11 +1,11 @@
-from itertools import permutations
+def solution(stack, n, m):
+    if len(stack) == m:
+        print(" ".join(map(str, stack)))
+    for i in range(1, n+1):
+        if i not in stack:        # 중복 확인
+            stack.append(i)     
+            solution(stack, n, m) # 재귀
+            stack.pop()           # 백트래킹
 
-N, M = map(int, input().split())
-
-nList = [i for i in range(1, N+1)]
-result = list(permutations(nList, M))
-
-for line in result:
-    for j in line:
-        print(j, end=" ")
-    print()
+n, m = map(int, input().split())
+solution([], n, m)
