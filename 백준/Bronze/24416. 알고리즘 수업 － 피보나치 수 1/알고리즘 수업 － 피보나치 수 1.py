@@ -1,13 +1,9 @@
 def fib(n):
-    global cnt
-    if (n == 1 or n == 2):
-        cnt += 1
-        return 1
-    else:
-        return fib(n-1)+fib(n-2)
+    dp = [0 for _ in range(n+1)]
+    dp[1], dp[2] = 1, 1
+    for i in range(3, n+1):
+        dp[i] = dp[i-1] + dp[i-2]
+    return dp[n]
 
 n = int(input())
-global cnt
-cnt = 0
-fib(n)
-print(cnt, n - 2)
+print(fib(n), n - 2)
