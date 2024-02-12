@@ -1,0 +1,13 @@
+-- 중고 거래 게시물을 3건 이상 등록한 사용자
+-- 사용자 ID, 닉네임, 전체주소, 전화번호
+-- 주소: 시, 도로명 주소, 상세 주소
+-- 전화번호 - 삽입, 회원 ID 기준 내림차순
+SELECT USER_ID, NICKNAME,
+    CONCAT_WS(' ', CITY, STREET_ADDRESS1, IFNULL(STREET_ADDRESS2, '')) 전체주소,
+    CONCAT_WS('-', SUBSTRING(TLNO, 1, 3), SUBSTRING(TLNO, 4, 4),
+              SUBSTRING(TLNO, 8)) 전화번호
+FROM USED_GOODS_BOARD B, USED_GOODS_USER U
+WHERE B.WRITER_ID=U.USER_ID
+GROUP BY B.WRITER_ID
+HAVING COUNT(B.WRITER_ID) >= 3
+ORDER BY U.USER_ID DESC;
