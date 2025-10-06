@@ -1,35 +1,23 @@
 import java.time.LocalTime
 import java.time.Duration
+import kotlin.math.ceil
 
 class Solution {
     fun solution(fees: IntArray, records: Array<String>): IntArray { 
-        var answer: IntArray = intArrayOf()
-    
         val recordMap = mutableMapOf<String, MutableList<LocalTime>>()
-        
-        records.forEach { r ->
-            val (time, carNum, status) = r.split(" ")
-            val localTime = LocalTime.parse(time)
-            recordMap.getOrPut(carNum) { mutableListOf() }.add(localTime)
+       
+        records.forEach { record ->
+            val (time, carNum, _) = record.split(" ")
+            recordMap.getOrPut(carNum) { mutableListOf() }.add(LocalTime.parse(time))
         }
-        
-        val result = mutableListOf<Int>()
-        for (times in recordMap.toSortedMap().values) {
-            var totalMinutes = 0L
-            val timeLine = if (times.size % 2 != 0) 
-                times + listOf(LocalTime.of(23, 59)) 
-            else times
-            
-            for (i in timeLine.indices step 2) {
-                val (inTime, outTime) = Pair(timeLine[i], timeLine[i + 1])
-                val duration = Duration.between(inTime, outTime).toMinutes()
-                totalMinutes += duration
-            }
-            val addFee = Math.ceil(Math.max(0, totalMinutes - fees[0]) / fees[2].toDouble()).toInt()
-            result.add(fees[1] + addFee * fees[3])
-        }
-            
-        answer = result.toIntArray()
-        return answer
+       
+        return recordMap.toSortedMap().map { (_, times) ->
+            val totalMinutes = times
+                .let {if (it.size % 2 != 0) it + LocalTime.of(23, 59) else it}
+                .chunked(2)
+                .sumOf { (inTime, outTime) -> Duration.between(inTime, outTime).toMinutes() }
+            if (totalMinutes <= fees[0]) fees[1]
+            else fees[1] + ceil((totalMinutes - fees[0]) / fees[2].toDouble()).toInt() * fees[3]
+       }.toIntArray()
     }
 }
