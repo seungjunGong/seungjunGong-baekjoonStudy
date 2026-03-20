@@ -11,22 +11,15 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         val st = StringTokenizer(readLine())
         val command = st.nextToken().toInt()
         
-        when(command) {
-            1 -> stack.addLast(st.nextToken().toInt())
-            2 -> {
-                val res = if (stack.isEmpty()) -1 else stack.removeLast()
-                sb.append(res).append("\n")
-            }
-            3 -> sb.append(stack.size).append("\n")
-            4 -> {
-                val res = if (stack.isEmpty()) 1 else 0
-                sb.append(res).append("\n")
-            }
-            5 -> {
-                val res = stack.lastOrNull() ?: -1
-                sb.append(res).append("\n")
-            }
+        val output = when(command) {
+            1 -> { stack.addLast(st.nextToken().toInt()); null }
+            2 -> if (stack.isEmpty()) -1 else stack.removeLast()
+            3 -> stack.size
+            4 -> if (stack.isEmpty()) 1 else 0
+            5 -> stack.lastOrNull() ?: -1
+            else -> null
         }
+        if (output != null) sb.append(output).append('\n')
     }
     print(sb)
 }
