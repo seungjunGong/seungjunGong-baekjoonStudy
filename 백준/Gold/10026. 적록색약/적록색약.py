@@ -4,53 +4,50 @@ N = int(input())
 
 dx = [0, 0, 1, -1]
 dy = [1, -1, 0, 0]
-rg = ['R', 'G']
 
-board = [list(input()) for _ in range(N)]
-visited = [[''] * N for _ in range(N)]
-
-def bfs(a, b, is_check_rg):
+def bfs(a, b, board, visited):
     queue = deque()
     
-    visited[a][b] = board[a][b]
+    visited[a][b] = True
     queue.append((a, b))
+    color = board[a][b] # 시작점 color
     
     while queue:
         x, y = queue.popleft()
-                
+        
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
             
             if 0 <= nx < N and 0 <= ny < N:
-                # 방문 했는지 확인
-                if visited[nx][ny] == '':
-                    if not is_check_rg: # 적록 색맹이면 G -> R
-                        # 앞으로 이동할 위치(board) 와 현재 방문 위치(visited) 비교
-                        if visited[x][y] in rg and board[nx][ny] in rg:
-                            visited[nx][ny] = board[nx][ny]
-                            queue.append((nx, ny))
-                        elif visited[x][y] == board[nx][ny]:
-                            visited[nx][ny] = board[nx][ny]
-                            queue.append((nx, ny))
-                    elif visited[x][y] == board[nx][ny]:
-                        visited[nx][ny] = board[nx][ny]
-                        queue.append((nx, ny))
+                # 방문 했는지 확인 & 다음 위치 방문 가능 여부 확인
+                if not visited[nx][ny] and color == board[nx][ny]:
+                    visited[nx][ny] = True
+                    queue.append((nx, ny))
 
-# 적록 X
-count = 0
+board = [list(input()) for _ in range(N)]
+rg_board = [[''] * N for _ in range(N)]
+
+# 적록 색맹용 보드 전처리
 for i in range(N):
     for j in range(N):
-        if visited[i][j] == '':
-            bfs(i, j, True)
+        if board[i][j] in ['R', 'G']:
+            rg_board[i][j] = 'R'
+        else:
+            rg_board[i][j] = 'B'
+            
+rgb_visited = [[False] * N for _ in range(N)]
+rg_visited = [[False] * N for _ in range(N)]
+
+count = 0 # 적록 X
+rg_count = 0 # 적록 O
+for i in range(N):
+    for j in range(N):
+        if rgb_visited[i][j] == False:
+            bfs(i, j, board, rgb_visited)
             count += 1
+        if rg_visited[i][j] == False:
+            bfs(i, j, rg_board, rg_visited)
+            rg_count += 1
 
-# 적록 O
-rb_count = 0
-visited = [[''] * N for _ in range(N)] # 초기화
-for i in range(N):
-    for j in range(N):
-        if visited[i][j] == '':
-            bfs(i, j, False)
-            rb_count += 1
-print(count, rb_count)
+print(count, rg_count)
