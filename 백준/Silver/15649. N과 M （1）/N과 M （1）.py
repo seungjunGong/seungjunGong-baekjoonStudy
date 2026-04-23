@@ -1,11 +1,21 @@
-def solution(stack, n, m):
-    if len(stack) == m:
-        print(" ".join(map(str, stack)))
-    for i in range(1, n+1):
-        if i not in stack:        # 중복 확인
-            stack.append(i)     
-            solution(stack, n, m) # 재귀
-            stack.pop()           # 백트래킹
+N, M = map(int,  input().split())
+s = [0 for _ in range(N+1)]
 
-n, m = map(int, input().split())
-solution([], n, m)
+visited = [0 for _ in range(N+1)]
+def solution(k):
+    # M 개 수열 만족
+    if k == M:
+        for i in range(M):
+            print(s[i], end=" ")
+        print()
+        return
+    # 수열 탐색
+    for i in range(1, N+1):
+        if visited[i]:
+            continue
+        visited[i] = True # 방문
+        s[k] = i
+        solution(k + 1)
+        visited[i] = False # 회귀
+
+solution(0)
