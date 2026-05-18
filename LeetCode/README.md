@@ -26,4 +26,12 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/0155-min-stack/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
