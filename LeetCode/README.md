@@ -11,6 +11,7 @@ Contains topicwise list of solved problems.
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0010-regular-expression-matching/) | Hard |
 | [0143-reorder-list](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0143-reorder-list/) | Medium |
 | [0326-power-of-three](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0326-power-of-three/) | Easy |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
@@ -72,6 +73,7 @@ Contains topicwise list of solved problems.
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0010-regular-expression-matching/) | Hard |
 | [0014-longest-common-prefix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0014-longest-common-prefix/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
@@ -92,4 +94,8 @@ Contains topicwise list of solved problems.
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0200-number-of-islands/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0010-regular-expression-matching/) | Hard |
 <!---LeetCode Topics End-->
