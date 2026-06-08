@@ -25,6 +25,7 @@ Contains topicwise list of solved problems.
 | [0283-move-zeroes](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0283-move-zeroes/) | Easy |
 | [0322-coin-change](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0322-coin-change/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0417-pacific-atlantic-water-flow/) | Medium |
+| [0605-can-place-flowers](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0605-can-place-flowers/) | Easy |
 | [0733-flood-fill](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0733-flood-fill/) | Easy |
 | [1929-concatenation-of-array](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/1929-concatenation-of-array/) | Easy |
 ## Simulation
@@ -120,4 +121,5 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0409-longest-palindrome](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0409-longest-palindrome/) | Easy |
+| [0605-can-place-flowers](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0605-can-place-flowers/) | Easy |
 <!---LeetCode Topics End-->
