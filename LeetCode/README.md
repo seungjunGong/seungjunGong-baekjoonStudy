@@ -22,6 +22,7 @@ Contains topicwise list of solved problems.
 | [0130-surrounded-regions](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0200-number-of-islands/) | Medium |
 | [0228-summary-ranges](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0228-summary-ranges/) | Easy |
+| [0283-move-zeroes](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0283-move-zeroes/) | Easy |
 | [0322-coin-change](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0322-coin-change/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0733-flood-fill](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0733-flood-fill/) | Easy |
@@ -75,6 +76,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0143-reorder-list](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0143-reorder-list/) | Medium |
+| [0283-move-zeroes](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0283-move-zeroes/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
