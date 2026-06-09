@@ -19,6 +19,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0014-longest-common-prefix/) | Easy |
+| [0054-spiral-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0200-number-of-islands/) | Medium |
 | [0228-summary-ranges](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0228-summary-ranges/) | Easy |
@@ -31,6 +32,7 @@ Contains topicwise list of solved problems.
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [1929-concatenation-of-array](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/1929-concatenation-of-array/) | Easy |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
 ## Bit Manipulation
@@ -104,6 +106,7 @@ Contains topicwise list of solved problems.
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0200-number-of-islands/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0417-pacific-atlantic-water-flow/) | Medium |
