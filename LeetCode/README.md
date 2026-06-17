@@ -6,6 +6,7 @@ Contains topicwise list of solved problems.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0263-ugly-number](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0263-ugly-number/) | Easy |
 | [0326-power-of-three](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0326-power-of-three/) | Easy |
 | [1006-clumsy-factorial](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1006-clumsy-factorial/) | Medium |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
