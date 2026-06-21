@@ -29,6 +29,7 @@ Contains topicwise list of solved problems.
 | [0283-move-zeroes](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0283-move-zeroes/) | Easy |
 | [0322-coin-change](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0414-third-maximum-number](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0414-third-maximum-number/) | Easy |
 | [0417-pacific-atlantic-water-flow](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0526-beautiful-arrangement](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0526-beautiful-arrangement/) | Medium |
 | [0605-can-place-flowers](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0605-can-place-flowers/) | Easy |
@@ -167,4 +168,8 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0526-beautiful-arrangement](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0526-beautiful-arrangement/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0414-third-maximum-number](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0414-third-maximum-number/) | Easy |
 <!---LeetCode Topics End-->
