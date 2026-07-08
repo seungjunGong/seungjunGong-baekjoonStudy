@@ -7,6 +7,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0067-add-binary/) | Easy |
+| [0070-climbing-stairs](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0070-climbing-stairs/) | Easy |
 | [0263-ugly-number](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0263-ugly-number/) | Easy |
 | [0326-power-of-three](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0326-power-of-three/) | Easy |
 | [1006-clumsy-factorial](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1006-clumsy-factorial/) | Medium |
@@ -150,6 +151,7 @@ Contains topicwise list of solved problems.
 | [0010-regular-expression-matching](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0010-regular-expression-matching/) | Hard |
 | [0042-trapping-rain-water](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0042-trapping-rain-water/) | Hard |
 | [0055-jump-game](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0055-jump-game/) | Medium |
+| [0070-climbing-stairs](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0070-climbing-stairs/) | Easy |
 | [0118-pascals-triangle](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0118-pascals-triangle/) | Easy |
 | [0322-coin-change](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
@@ -175,6 +177,7 @@ Contains topicwise list of solved problems.
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0070-climbing-stairs/) | Easy |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
