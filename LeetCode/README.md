@@ -28,6 +28,7 @@ Contains topicwise list of solved problems.
 | [0055-jump-game](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0055-jump-game/) | Medium |
 | [0118-pascals-triangle](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0118-pascals-triangle/) | Easy |
 | [0130-surrounded-regions](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0130-surrounded-regions/) | Medium |
+| [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 | [0200-number-of-islands](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0200-number-of-islands/) | Medium |
 | [0228-summary-ranges](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0228-summary-ranges/) | Easy |
 | [0283-move-zeroes](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0283-move-zeroes/) | Easy |
@@ -117,11 +118,13 @@ Contains topicwise list of solved problems.
 | [0010-regular-expression-matching](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0010-regular-expression-matching/) | Hard |
 | [0014-longest-common-prefix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0067-add-binary](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0067-add-binary/) | Easy |
+| [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 | [0409-longest-palindrome](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0409-longest-palindrome/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0014-longest-common-prefix/) | Easy |
+| [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -157,12 +160,14 @@ Contains topicwise list of solved problems.
 | [0055-jump-game](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0055-jump-game/) | Medium |
 | [0070-climbing-stairs](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0070-climbing-stairs/) | Easy |
 | [0118-pascals-triangle](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0118-pascals-triangle/) | Easy |
+| [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 | [0322-coin-change](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0526-beautiful-arrangement](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0526-beautiful-arrangement/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 | [0409-longest-palindrome](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0409-longest-palindrome/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -182,6 +187,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0070-climbing-stairs/) | Easy |
+| [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
