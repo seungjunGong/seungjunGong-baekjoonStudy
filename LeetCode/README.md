@@ -9,6 +9,7 @@ Contains topicwise list of solved problems.
 | [0067-add-binary](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0067-add-binary/) | Easy |
 | [0070-climbing-stairs](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0070-climbing-stairs/) | Easy |
 | [0263-ugly-number](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0263-ugly-number/) | Easy |
+| [0282-expression-add-operators](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0282-expression-add-operators/) | Hard |
 | [0326-power-of-three](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0326-power-of-three/) | Easy |
 | [1006-clumsy-factorial](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1006-clumsy-factorial/) | Medium |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
@@ -122,6 +123,7 @@ Contains topicwise list of solved problems.
 | [0067-add-binary](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0067-add-binary/) | Easy |
 | [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
 | [0212-word-search-ii](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0212-word-search-ii/) | Hard |
+| [0282-expression-add-operators](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0282-expression-add-operators/) | Hard |
 | [0409-longest-palindrome](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0409-longest-palindrome/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
 ## Trie
@@ -202,6 +204,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0212-word-search-ii](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0212-word-search-ii/) | Hard |
+| [0282-expression-add-operators](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0282-expression-add-operators/) | Hard |
 | [0526-beautiful-arrangement](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0526-beautiful-arrangement/) | Medium |
 ## Bitmask
 | Problem Name | Difficulty |
