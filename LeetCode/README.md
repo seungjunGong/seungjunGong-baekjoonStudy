@@ -76,6 +76,7 @@ Contains topicwise list of solved problems.
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 ## Tree
@@ -109,6 +110,7 @@ Contains topicwise list of solved problems.
 | [0086-partition-list](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0086-partition-list/) | Medium |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
 | [0143-reorder-list](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0143-reorder-list/) | Medium |
+| [0146-lru-cache](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0146-lru-cache/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -177,6 +179,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0139-word-break/) | Medium |
+| [0146-lru-cache](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0146-lru-cache/) | Medium |
 | [0409-longest-palindrome](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0409-longest-palindrome/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0659-split-array-into-consecutive-subsequences/) | Medium |
@@ -232,4 +235,8 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0033-search-in-rotated-sorted-array/) | Medium |
+## Doubly-Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0146-lru-cache](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0146-lru-cache/) | Medium |
 <!---LeetCode Topics End-->
