@@ -46,6 +46,7 @@ Contains topicwise list of solved problems.
 | [0733-flood-fill](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0733-flood-fill/) | Easy |
 | [0739-daily-temperatures](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0739-daily-temperatures/) | Medium |
 | [1020-number-of-enclaves](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1020-number-of-enclaves/) | Medium |
+| [1094-car-pooling](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1094-car-pooling/) | Medium |
 | [1929-concatenation-of-array](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/1929-concatenation-of-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
@@ -54,6 +55,7 @@ Contains topicwise list of solved problems.
 | [0067-add-binary](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0067-add-binary/) | Easy |
 | [0682-baseball-game](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0682-baseball-game/) | Easy |
 | [1006-clumsy-factorial](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1006-clumsy-factorial/) | Medium |
+| [1094-car-pooling](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1094-car-pooling/) | Medium |
 | [1929-concatenation-of-array](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/1929-concatenation-of-array/) | Easy |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
 ## Bit Manipulation
@@ -219,6 +221,7 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0414-third-maximum-number](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Easy/0414-third-maximum-number/) | Easy |
+| [1094-car-pooling](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1094-car-pooling/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -233,6 +236,7 @@ Contains topicwise list of solved problems.
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/0659-split-array-into-consecutive-subsequences/) | Medium |
+| [1094-car-pooling](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1094-car-pooling/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -253,4 +257,8 @@ Contains topicwise list of solved problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1094-car-pooling](https://github.com/seungjunGong/seungjunGong-baekjoonStudy/tree/main/LeetCode/Python3/Medium/1094-car-pooling/) | Medium |
 <!---LeetCode Topics End-->
